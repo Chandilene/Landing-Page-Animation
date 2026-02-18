@@ -17,20 +17,27 @@
   --color-text: #000000;
   --color-highlights: #000000;
   --color-background: #fafafa;
+
+  --ff-base: "Montserrat", sans-serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4rem;
 }
 
 html, button{
-    font: 500 1rem/1.5 "Montserrat", sans-serif;
+    font: 500 1rem/1.5 var(--ff-base);
 }
 
 h1,h2{
     font-family: "Syne", sans-serif; 
 }
 h1{
-    font-size: 4rem;
+    font-size: var(--text-xl);
     line-height: 1.25;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: var(--text-lg);
     line-height: 1.2;
 }
