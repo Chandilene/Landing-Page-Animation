@@ -2,11 +2,13 @@
   width: 100vw;
   padding-block: 2.5rem;
   overflow: hidden;
+  overflow-x: hidden;
 
   .scroller {
     width: 100vw;
     overflow: hidden;
     padding-block: 1rem;
+    overflow-x: hidden;
   }
 
   .rolling{
